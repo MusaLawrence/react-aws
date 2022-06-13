@@ -1,0 +1,16 @@
+{
+  "resourceName": "claims",
+  "tableName": "claimsDetails",
+  "partitionKey": {
+    "fieldName": "claimsID",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "claimsdate",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "claimsTrigger74d7c426"
+  ]
+}

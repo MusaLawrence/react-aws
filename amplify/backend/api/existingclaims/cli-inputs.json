@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/existing": {
+      "name": "/existing",
+      "lambdaFunction": "claimsTrigger74d7c426",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
